@@ -35,12 +35,16 @@ npm run dev
 * [ ] Week 4: 인터랙션 패턴(모달, 토글, 드래그, 캐러셀)
 * [ ] Week 5: 실전 컴포넌트 리팩토링(접근성·반응형 포함)
 
+💡아래와 같은 것들을 실습할 수 있어요💡
+![프레이머모션1](https://github.com/user-attachments/assets/0f80ae25-c481-4a84-ac05-af83c811d4c3)
+![프레이머모션2](https://github.com/user-attachments/assets/366235f9-3bb4-4f9e-8a3a-d02eba5eee71)
+
 
 ## 참고/크레딧
 
 * 라이브러리: [Framer Motion](https://www.framer.com/motion/)
-* 작성: 개인 학습 기록용(원작자 표시 하에 포크/수정 자유)
+* 작성: 개인 학습 기록용(포크/수정 자유)
 
 ---
 
-© 2025. 필요 시 원작자 표시 하에 자유롭게 수정/배포하세요.
+© 2025. 필요 시 원작자 표시 하에 자유롭게 배포하세요.
