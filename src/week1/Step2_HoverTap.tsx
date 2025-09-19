@@ -19,7 +19,7 @@ export default function Step2_HoverTap() {
             1) 버튼 마이크로 인터랙션
           </h3>
           <motion.button
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 12 }} //마운트 되는 순간 1회 동작: 위로 등장 효과 initial + animate
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ y: -2, scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
