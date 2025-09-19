@@ -8,6 +8,7 @@
 ```bash
 # 설치
 npm i
+npm i framer-motion
 # 로컬 실행
 npm run dev
 ```
