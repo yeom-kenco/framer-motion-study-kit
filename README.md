@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Framer Motion 학습하기 📦
 
-Currently, two official plugins are available:
+프론트엔드 애니메이션 감각을 빠르게 올리기 위한 **Framer Motion 실습 모음**입니다.  
+주차별(Week) · 단계별(Step)로 바로 실행/수정하며 배우는 것을 목표로 합니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 빠른 실행
+```bash
+# 설치
+npm i
+# 로컬 실행
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 폴더 구조
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+/src
+  /week1
+    step1-...tsx
+    step2-...tsx
+  /week2
+```
+
+## 학습 체크리스트
+
+* [ ] Week 1: 기본 모션(animate, transition, variants, whileHover/whileTap)
+* [ ] Week 2: 스크롤 진입/이탈(useInView, useAnimation)
+* [ ] Week 3: 레이아웃 애니메이션(layout, shared layout)
+* [ ] Week 4: 인터랙션 패턴(모달, 토글, 드래그, 캐러셀)
+* [ ] Week 5: 실전 컴포넌트 리팩토링(접근성·반응형 포함)
+
+
+## 참고/크레딧
+
+* 라이브러리: [Framer Motion](https://www.framer.com/motion/)
+* 작성: 개인 학습 기록용(원작자 표시 하에 포크/수정 자유)
+
+---
+
+© 2025. 필요 시 원작자 표시 하에 자유롭게 수정/배포하세요.
