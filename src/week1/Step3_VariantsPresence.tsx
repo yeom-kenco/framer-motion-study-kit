@@ -1,7 +1,7 @@
 // Step3_VariantsPresence.tsx
 import { useState } from "react"; // 리액트 상태 훅
 import { MotionConfig, AnimatePresence, motion } from "framer-motion"; // framer 핵심 컴포넌트들
-import { type Variants } from "framer-motion"; // ✅ 타입만 import (tsconfig의 verbatimModuleSyntax 대응)
+import { type Variants } from "framer-motion";
 
 // 부모 컨테이너가 "자식들을 순차 재생"하도록 하는 상태 정의(variants)
 const containerVariants: Variants = {

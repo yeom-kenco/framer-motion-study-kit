@@ -1,7 +1,7 @@
 // MotionStep1.tsx (디버그 버전)
 import { MotionConfig, motion } from "framer-motion";
 
-export default function MotionStep1() {
+export default function Step1_Motion() {
   return (
     <MotionConfig reducedMotion="never">
       <div
