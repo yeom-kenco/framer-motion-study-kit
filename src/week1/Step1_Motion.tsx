@@ -13,6 +13,7 @@ export default function Step1_Motion() {
           gap: 24,
         }}
       >
+        <h1>Week1: Step1</h1>
         {/* 0. 강제 왕복 박스 (무한 반복) */}
         <section>
           <h2 style={{ marginBottom: 8, fontWeight: 600 }}>0. Must move</h2>

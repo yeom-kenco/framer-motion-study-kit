@@ -90,8 +90,10 @@ export default function Step3_VariantsPresence() {
           margin: "0 auto",
           display: "grid",
           gap: 24,
+          borderTop: "1px solid #e5e7eb",
         }}
       >
+        <h1>Week1: Step3</h1>
         {/* 0) Replay: 'seed'를 바꿔 key를 바꾸면 해당 블록이 remount → 들어오는 모션을 다시 볼 수 있음 */}
         <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
           <button

@@ -11,8 +11,10 @@ export default function Step2_HoverTap() {
           gap: 24,
           maxWidth: 960,
           margin: "0 auto",
+          borderTop: "1px solid #e5e7eb",
         }}
       >
+        <h1>Week1: Step2</h1>
         {/* 1) 버튼: hover/tap 기본 */}
         <section>
           <h3 style={{ marginBottom: 8, fontWeight: 600 }}>
